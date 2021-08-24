@@ -1,0 +1,64 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    font-family: 'poppins';
+    height: 100vh;
+    background-position: center;
+}
+
+.container { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.container h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+ } 
+ .container p { 
+     color: #fff;
+     margin: 0;
+     line-height: 35px;
+     font-size: 20px;
+ } 
+ .container a { 
+     background: crimson;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 25px;
+     border-radius: 10px;
+     display: inline-block;
+     margin-top: 10px;
+    } 
+    span::before { 
+        content: '';
+        color: red;
+        animation: animate infinite 8s;
+    } 
+    @keyframes animate { 
+        0% { 
+            content: 'Devloper';
+        } 
+
+        25% { 
+            content: 'Coder';
+            
+        }  
+        50% { 
+            content: 'Designer';
+            
+        } 
+        75% { 
+            content: 'Marketer';
+        } 
+
+        100% { 
+            content: 'Freelancer';
+        } 
+    } 
